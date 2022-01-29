@@ -28,10 +28,10 @@ container.addEventListener("mouseover", () => {
 container.addEventListener("mouseleave", () => {
   Dbtn.style.display = "none";
 });
-container.addEventListener("touchstart", (event) => {
+container.addEventListener("touchstart",(event) => {
   event.preventDefault()
   Dbtn.style.display = "flex";
 });
-document.body.addEventListener("touchstart", () => {
+document.body.addEventListener("mouseover", () => {
   Dbtn.style.display = "none";
 });
