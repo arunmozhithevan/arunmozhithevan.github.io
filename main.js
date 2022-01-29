@@ -29,7 +29,6 @@ container.addEventListener("mouseleave", () => {
   Dbtn.style.display = "none";
 });
 container.addEventListener("touchstart",(event) => {
-  event.preventDefault()
   Dbtn.style.display = "flex";
 });
 document.body.addEventListener("mouseover", () => {
