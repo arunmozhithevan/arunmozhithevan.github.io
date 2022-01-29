@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    width: 70vw;
+    height: 70vw;
+    border-radius: 2vw;
+    margin-bottom: 3vw;
+    box-shadow: 0 0 2vw gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    position:absolute;
+}
+#container #Dbtn{
+    width: 18vw !important;
+    height: 8vw;
+    background: lightgreen;
+    color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    font-size:3vw;
+    display: none;
+}
+body a{
+    display: none;  
+}
+button{
+    width: 15vw;
+    height: 8vw;
+    font-size:4vw;
+    outline: none;
+    border: none;
+    border-radius: 1.5vw;
+    background: lightsalmon;
+    color: wheat;
+}
